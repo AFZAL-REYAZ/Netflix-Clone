@@ -1,7 +1,23 @@
-.footerbox{
-    width: 100vw;
-    margin-top: 10px;
+.footerheading p{
     display: flex;
+    margin-top: -18px;
+}
+.footerheading{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 25px;
+    margin-left: 250px;
+    margin-bottom: 67px;
+    height: 20px;
+    margin-top: -16px;
+    font-size: large;
+    color: aliceblue;
+}
+.footerbox2{
+    display: flex;
+    width: 100vw;
+    margin-top: 8px;
     align-items: center;
     border: 3px solid black;
     background-color: rgb(54, 63, 63);
@@ -10,46 +26,57 @@
     bottom: 0px;
     flex-direction: row;
 }
-
-.footerheading{
-    text-decoration: none;
-    color: rgb(19, 247, 68);
-    font-size: xx-large;
-    color: aliceblue;
-}
-.footerheading{
-    margin: 25px;
-    text-decoration: none;
-
-}
-.footerheading{
-    display: flex;
-    text-decoration: none;
+@media screen and (max-width: 1130px) {
+    
+    .footerheading{
+        display: flex;
+        margin: 15px;
+        margin-left: 100px;
+        margin-bottom: 75px;
+        height: 20px;
+        margin-top: 4px;
+        flex-direction: column;
+        text-decoration: none;
+        color: rgb(237, 245, 239);
+        font-size: small;
+    }
+    .footerbox2{
+        display: flex;
+        width: 100vw;
+        margin-top: 8px;
+        align-items: center;
+        border: 3px solid black;
+        background-color: rgb(54, 63, 63);
+        height: 50px;
+        position: fixed;
+        bottom: 0px;
+        flex-direction: row;
+    }
 }
 @media screen and (max-width: 600px) {
     .footerheading{
+        display: flex;
+        margin: 8px;
+        margin-left: 60px;
+        margin-bottom: 75px;
+        height: 20px;
+        margin-top: 4px;
+        flex-direction: column;
         text-decoration: none;
-        color: rgb(19, 247, 68);
+        color: rgb(237, 245, 239);
         font-size: small;
     }
-    .footerheading{
-        margin: 5px;
-    }
-    .footerheading{
-        display: block;
-        padding: 0px;
-        margin: 0px;
+    .footerbox2{
         display: flex;
-        /* flex-direction: column; */
-        text-decoration: none;
+        width: 100vw;
+        margin-top: 8px;
+        align-items: center;
+        border: 3px solid black;
+        background-color: rgb(54, 63, 63);
+        height: 50px;
+        position: fixed;
+        bottom: 0px;
+        flex-direction: row;
     }
 }
 
-.footerheading{
-    margin-left: 250px;
-    margin-bottom: 75px;
-    height: 20px;
-}
-.footerheading {
-    margin-top: -16px;
-}

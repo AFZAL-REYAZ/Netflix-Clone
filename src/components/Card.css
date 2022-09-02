@@ -4,19 +4,16 @@
     background-color: #578997;
     width: 300px;
     height: 340px;
-    border: 10px solid rgb(190, 16, 16);
+    border: 10px solid rgb(23, 26, 25);
     border-radius: 25px;
     border: 5px;
-    border-color: red;
     margin: 50px;
     padding: 10px;
     overflow-y: auto;
-    /* width: 25%; */
 }
 div span{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 .card_img{
     display: flex;
@@ -30,7 +27,7 @@ div span{
     justify-content: center;
     align-items: center;
     height: 55px;
-    /* align-content: center; */
+    background-color: #578997;
 }
 .card_tittle{
     font-size: 25px;

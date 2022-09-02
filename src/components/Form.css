@@ -1,9 +1,37 @@
-.formbox2{
-    height: 500px;
+.formbox{
+    height: 86vh;
     width: 100vw;
     display: flex;
-    margin-top: 100px;
-    background-color: #16f799;
+    flex-direction: column;
+    margin-top: 70px;
+    background-color: #aed3c4;
     justify-content: center;
-
+    align-items: center;
+}
+.formbox2{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c3f0dd;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+.formheading{
+    display: flex;
+    width: 100px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    background-color: rgb(60, 107, 92);
+}
+.form_input{
+    margin: 10px
+}
+.formbtn{
+    margin: 10px;
+    background-color: #7f5fb9;
 }

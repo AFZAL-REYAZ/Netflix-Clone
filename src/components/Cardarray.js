@@ -12,7 +12,7 @@ const Cardarray=[
       link:"https://youtu.be/aQF4zbOKoEY",
     },
     {
-      imgsrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKOPJGrMEa24ZRcqq0rGkEyESZHGqz3gozfmcKGVc&s",
+      imgsrc:"https://stat1.bollywoodhungama.in/wp-content/uploads/2019/03/KGF-19-306x393.jpg",
       tittle:"Netflix Original",
       sname:"KGF",
       link:"https://youtu.be/qXgF-iJ_ezE"
@@ -24,7 +24,7 @@ const Cardarray=[
       link:"https://youtu.be/tQ9Wh0RGo8Y"
     },
     {
-      imgsrc:"https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/AlluArjun_Pushpa_Poster_090421_1200.jpg?itok=6IHBJo0V",
+      imgsrc:"https://cdn.99images.com/photos/movies-tv/pushpa/md/pushpa-movie-latest-hd-photos-posters-wallpapers-download-1080p-aeia.jpeg",
       tittle:"Netflix Original",
       sname:"PUSPA",
       link:"https://youtu.be/Gs9TQr1D9Ps"
